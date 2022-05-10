@@ -88,7 +88,7 @@ public class Registros {
 
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("no se ha podido eler el fichero");
+            System.out.println("No se ha podido eler el fichero");
         } finally {
             try {
                 if (null != fileReader1) {
